@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>长沙师范学院</title>
+        <!--        META SECTION-->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=false" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+
+        <!--        STYLES SECTION -->
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" /> 
+        <link rel="stylesheet" href="css/lightGreen.css" />
+
+        <!--        FONTS SECTION -->
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+
+
+        <!--        SCRIPT SECTION -->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script> 
+
+    </head>
+    <body>
+        <!--    Page initialization      -->
+        <div data-role="page">
+
+
+
+            <!--            Header-->
+            <header data-role="header">
+                <h1>长沙师范学院</h1>
+                <nav class="ui-grid-c">
+                    <div class="ui-block-a"><a href="index.html" data-transition="flip">主页</a></div>
+                    <div class="ui-block-b"><a href="portfolio.html" data-transition="flip">学校概况</a></div>
+                    <div class="ui-block-c"><a href="blog.html" data-transition="flip">校园生活</a></div>
+                    <div class="ui-block-d"><a class="navSelected" href="contact.html" data-transition="flip">我的简介</a></div>
+                </nav>
+                <hr class="divider" />
+            </header>
+            <!--         Heder     END  -->
+
+
+
+
+            <!--            Main Content-->
+            <section data-role="content" class="wrappedWidth">
+                <section id="contact">
+                    <img class="mainIMG" src="images/refimages/map.jpg" alt="Map" />
+                    <h2>关于我</h2>
+                    <div class="article-wrapper">
+                        <p>我，钟志琼。来自广东惠州，就读于湖南长沙师范学院美术动画系 14多媒体301班。我是一名即将毕业的大三学生。目前正在寻找合适的实习单位。 </p>                    
+                        <span class="name-contact">钟志琼</span>
+                        <span class="number-contact">15816480186</span>
+                        <span class="mail-contact">1064038381@qq.com</span>
+                    </div>
+                </section>
+
+                <section id="CommentForm">
+                    <h2>Send me an email</h2>
+                    <form action="processForm.php" method="post">
+                        <input type="text" name="senderName" id="name" value="" placeholder="Username" />
+                        <input type="text" name="senderEmail" id="mail" value="" placeholder="Mail" />
+                        <textarea name="message" id="text" cols="30" rows="10" placeholder="Text" ></textarea>
+                        <input data-theme="a" type="submit" value="Submit" name="submit" />
+                    </form>
+                </section>
+            </section>
+            <!--  Main Content     END  -->
+
+
+
+
+
+
+            <!--         Footer   -->
+            <footer data-role="footer" data-theme="a" data-position="inline">
+                <hr class="divider" />
+                <h4>Follow me on</h4>
+                <div class="ui-grid-c wrappedWidth shareIcons">
+                    <div class="ui-block-a"><a href="#"><img src="images/lightGreen/fb.png" alt="Facebook" /></a></div>
+                    <div class="ui-block-b"><a href="#"><img src="images/lightGreen/digg.png" alt="Digg" /></a></div>
+                    <div class="ui-block-c"><a href="#"><img src="images/lightGreen/twitter.png" alt="Twitter" /></a></div>
+                    <div class="ui-block-d"><a href="#"><img src="images/lightGreen/rss.png" alt="RSS" /></a></div>
+                </div>
+
+                <h4>关于学校</h4>
+                <p>学校地址：湖南省长沙市 星沙 特立路9号 邮编：410100 院办：(0731)84036888 招生就业处：(0731）84036197
+版权所有(c)长沙师范学院 Copyright(c)Changsha Normal University 湘ICP备14000863号 湘教QS4-201310-010043号
+湖南教育政务微信</p>
+                <p> 长沙师范官方微信 |  联系我们 | 网站导航 </p>
+
+                <nav class="ui-grid-c">
+                  <div class="ui-block-a"><a href="index.html" data-transition="flip">主页</a></div>
+                    <div class="ui-block-b"><a href="portfolio.html" data-transition="flip">学校概况</a></div>
+                    <div class="ui-block-c"><a href="blog.html" data-transition="flip">校园生活</a></div>
+                    <div class="ui-block-d"><a class="navSelected" href="contact.html" data-transition="flip">我的简介</a></div>
+               </nav>
+            </footer>   
+            <!--  Footer     END  -->  
+
+        </div>
+        <!--     Page initialization    END  -->
+    </body>
+</html>
